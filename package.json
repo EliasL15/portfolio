@@ -29,7 +29,7 @@
         "predeploy": "npm run build",
         "deploy": "gh-pages -d build"
     },
-    "homepage": "https://<your-username>.github.io/<your-repo-name>",
+    "homepage": "https://EliasL15/portfolio",
     "browserslist": {
         "production": [
             ">0.2%",
