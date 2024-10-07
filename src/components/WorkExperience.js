@@ -84,7 +84,7 @@ const WorkExperience = () => {
           <Button
             variant="contained"
             color="secondary"
-            href="/Liassides.pdf"
+            href="https://eliasl15.github.io/portfolio/Liassides.pdf"
             download="EliasLiassides_CV.pdf"
             sx={{
               mt: 3,
