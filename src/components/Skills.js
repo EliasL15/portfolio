@@ -1,11 +1,12 @@
 import React from 'react';
 import { Box, Typography, Grid, CircularProgress } from '@mui/material';
 import { motion } from 'framer-motion';
-import { SiJavascript, SiReact, SiNodedotjs, SiPython, SiCss3, SiHtml5, SiGit, SiMongodb, SiMysql } from 'react-icons/si';
+import { FaJava } from "react-icons/fa";
+import { SiJavascript, SiReact, SiPython, SiCss3, SiHtml5, SiGit, SiCode, SiMysql } from 'react-icons/si';
 
 const skills = [
     { name: 'Python', level: 100, icon: <SiPython size={40} /> },
-    { name: 'Java', level: 80, icon: <SiJavascript size={40} /> },
+    { name: 'Java', level: 80, icon: <FaJava size={40} /> },
     { name: 'React', level: 70, icon: <SiReact size={40} /> },
     { name: 'HTML', level: 90, icon: <SiHtml5 size={40} /> },
     { name: 'CSS', level: 70, icon: <SiCss3 size={40} /> },

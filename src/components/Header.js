@@ -20,7 +20,7 @@ import { Link as ScrollLink } from 'react-scroll'; // For smooth scrolling
 import { useTheme } from '@mui/material/styles';
 import useMediaQuery from '@mui/material/useMediaQuery';
 
-const navItems = ['About', 'Projects', 'Skills', 'Contact'];
+const navItems = ['About', 'Skills', 'Projects', 'Contact'];
 
 const Header = ({ darkMode, setDarkMode }) => {
   const theme = useTheme();

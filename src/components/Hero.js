@@ -283,7 +283,7 @@ const Hero = ({ darkMode }) => {
                 color: darkMode ? '#ffffff' : '#333333',
               }}
             >
-              Elias
+              Elias Liassides
             </Typography>
 
             {/* Subtitle */}
