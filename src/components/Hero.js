@@ -122,7 +122,7 @@ const Parallax = ({ darkMode }) => {
 const Hero = ({ darkMode }) => {
   // Initialize the typewriter effect
   const [text] = useTypewriter({
-    words: ['Full Stack Developer', 'Software Engineer', 'Open Source Contributor'],
+    words: ['Software Engineer', 'Full Stack Developer'],
     loop: 0, // Infinite loop
     delaySpeed: 2000,
     typeSpeed: 100,
