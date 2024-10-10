@@ -28,8 +28,6 @@ You can view a live demo of the website here: [Your Portfolio Live Link](https:/
 ## Technologies Used
 
 - **Frontend:** React, JavaScript, HTML, CSS
-- **Libraries:** React Router for navigation, styled-components for styling
-- **Build Tools:** Vite / Create React App (whichever you used)
 - **Version Control:** Git and GitHub
 
 ## Getting Started
