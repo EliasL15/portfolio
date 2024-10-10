@@ -46,13 +46,13 @@ Ensure you have the following installed on your machine:
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/your-username/your-portfolio-repo.git
+   git clone https://github.com/EliasL15/portfolio.git
    ```
 
 2. **Navigate to the Project Directory:**
 
    ```bash
-   cd your-portfolio-repo
+   cd portfolio
    ```
 
 3. **Install Dependencies:**
@@ -86,7 +86,7 @@ This will create a `build` folder with the production build files.
 Here is an overview of the project's structure:
 
 ```
-your-portfolio-repo/
+portfolio/
 ├── public/
 ├── src/
 │   ├── assets/         # Images, icons, and other static assets
