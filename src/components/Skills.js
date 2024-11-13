@@ -2,7 +2,7 @@ import React from 'react';
 import { Box, Typography, Grid, CircularProgress } from '@mui/material';
 import { motion } from 'framer-motion';
 import { FaJava } from "react-icons/fa";
-import { SiJavascript, SiReact, SiPython, SiCss3, SiHtml5, SiGit, SiCode, SiMysql } from 'react-icons/si';
+import { SiJavascript, SiReact, SiPython, SiCss3, SiHtml5, SiGit, SiGodotengine, SiMysql, SiC, SiCplusplus, SiLatex } from 'react-icons/si';
 
 const skills = [
     { name: 'Python', level: 100, icon: <SiPython size={40} /> },
@@ -13,6 +13,14 @@ const skills = [
     { name: 'JavaScript', level:70, icon: <SiJavascript size={40} />},
     { name: 'Git', level: 75, icon: <SiGit size={40} /> },
     { name: 'MySQL', level: 70, icon: <SiMysql size={40} /> },
+    { name: 'C', level: 60, icon: <SiC size={40} /> },
+    { name: 'C++', level: 60, icon: <SiCplusplus size={40} /> },
+    { name: 'Latex', level: 80, icon: <SiLatex size={40} /> },
+    { name: 'Godot - GDScript', level: 80, icon: <SiGodotengine size={40} /> },
+
+
+
+
 ];
 
 const Skills = () => {
