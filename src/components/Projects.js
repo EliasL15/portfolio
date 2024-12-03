@@ -7,9 +7,16 @@ import brick_breaker from "../assets/brick_breaker.png"
 import ultra from '../assets/ultra.png'
 import ytube from '../assets/Youtube-Shorts-Logo.png'
 import bakery from '../assets/bakery.png'
+import neo_trader from '../assets/neo_trader.png'
 
 const Projects = () => {
   const projects = [
+    {
+      title: "Neo_Trader3000",
+      description: "NeoTrader 3000 is a trading simulator combining strategy, market analysis, and technical innovation.",
+      image: neo_trader,
+      link: "https://eliasl15.github.io/NeoTrader_3000/intro.html"
+    },
     {
       title: "Portfolio Website",
       description: "A personal portfolio website built using the React framework to showcase my skills and projects.",
