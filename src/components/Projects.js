@@ -5,7 +5,7 @@ import portfolio_pic from "../assets/dev_portfolio.png";
 import outofspace from "../assets/outofspace.gif";
 import brick_breaker from "../assets/brick_breaker.png"
 import ultra from '../assets/ultra.png'
-import ytube from '../assets/Youtube-Shorts-Logo.png'
+import ytube from '../assets/shorts.png'
 import bakery from '../assets/bakery.png'
 import neo_trader from '../assets/neo_trader.png'
 
