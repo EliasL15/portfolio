@@ -5,7 +5,7 @@ import portfolio_pic from "../assets/dev_portfolio.png";
 import outofspace from "../assets/outofspace.gif";
 import brick_breaker from "../assets/brick_breaker.png"
 import ultra from '../assets/ultra.png'
-import ytube from '../assets/shorts.png'
+import shorts from '../assets/shorts.png'
 import bakery from '../assets/bakery.png'
 import neo_trader from '../assets/neo_trader.png'
 
@@ -42,10 +42,10 @@ const Projects = () => {
       link: "https://github.com/EliasL15/Ultra-Marathon"
     },
     {
-      title: "YouTube Shorts Automation in Python",
-      description: "Automated uploading of YouTube Shorts using Python and APIs, streamlining content creation for a more efficient workflow.",
-      image: ytube,
-      link: "https://github.com/EliasL15/Youtube-Shorts-Automation"
+      title: "Shorts Automation in Python",
+      description: "Automating the process of generating Shorts/Reels using Python and APIs, streamlining content creation for a more efficient workflow.",
+      image: shorts,
+      link: "https://github.com/EliasL15/Shorts-Automation"
     },
     {
       title: "Java-Based Board Game",
