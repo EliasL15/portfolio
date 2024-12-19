@@ -2,21 +2,21 @@ import React from 'react';
 import { Box, Typography, Grid, CircularProgress } from '@mui/material';
 import { motion } from 'framer-motion';
 import { FaJava } from "react-icons/fa";
-import { SiJavascript, SiReact, SiPython, SiCss3, SiHtml5, SiGit, SiGodotengine, SiMysql, SiC, SiCplusplus, SiLatex } from 'react-icons/si';
+import { SiJavascript, SiReact, SiPython, SiCss3, SiHtml5, SiGit, SiGodotengine, SiMysql, SiC, SiCplusplus, SiLatex, SiPhp } from 'react-icons/si';
 
 const skills = [
     { name: 'Python', level: 100, icon: <SiPython size={40} /> },
     { name: 'Java', level: 80, icon: <FaJava size={40} /> },
-    { name: 'React', level: 70, icon: <SiReact size={40} /> },
     { name: 'HTML', level: 90, icon: <SiHtml5 size={40} /> },
     { name: 'CSS', level: 70, icon: <SiCss3 size={40} /> },
     { name: 'JavaScript', level:70, icon: <SiJavascript size={40} />},
-    { name: 'Git', level: 75, icon: <SiGit size={40} /> },
+    { name: 'React', level: 70, icon: <SiReact size={40} /> },
+    { name: 'PHP', level: 75, icon: <SiPhp size={40} /> },
     { name: 'MySQL', level: 70, icon: <SiMysql size={40} /> },
     { name: 'C', level: 60, icon: <SiC size={40} /> },
     { name: 'C++', level: 60, icon: <SiCplusplus size={40} /> },
-    { name: 'Latex', level: 80, icon: <SiLatex size={40} /> },
     { name: 'Godot - GDScript', level: 80, icon: <SiGodotengine size={40} /> },
+    { name: 'Git', level: 80, icon: <SiGit size={40} /> }
 
 
 
