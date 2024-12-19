@@ -8,6 +8,7 @@ import ultra from '../assets/ultra.png'
 import shorts from '../assets/shorts.png'
 import bakery from '../assets/bakery.png'
 import neo_trader from '../assets/neo_trader.png'
+import employee from '../assets/employee.png'
 
 const Projects = () => {
   const projects = [
@@ -16,6 +17,12 @@ const Projects = () => {
       description: "NeoTrader 3000 is a trading simulator combining strategy, market analysis, and technical innovation.",
       image: neo_trader,
       link: "https://eliasl15.github.io/NeoTrader_3000/intro.html"
+    },
+    {
+      title: "Employee Management System",
+      description: "A full-stack web application for efficient employee management, built with HTML, CSS, JavaScript, PHP, and MySQL.",
+      image: employee,
+      link: "https://github.com/EliasL15/Employee_Management_System"
     },
     {
       title: "Portfolio Website",
