@@ -15,7 +15,7 @@ This is my personal portfolio website built using the React framework. The websi
 
 ## Live Demo
 
-You can view a live demo of the website here: [Your Portfolio Live Link](https://eliasl15.github.io/portfolio/)
+You can view a live demo of the website here: [https://eliasl15.github.io/portfolio/](https://eliasl15.github.io/portfolio/)
 
 ## Features
 
