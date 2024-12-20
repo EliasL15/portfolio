@@ -9,6 +9,7 @@ import shorts from '../assets/shorts.png'
 import bakery from '../assets/bakery.png'
 import neo_trader from '../assets/neo_trader.png'
 import employee from '../assets/employee.png'
+import pdf from '../assets/pdf.png'
 
 const Projects = () => {
   const projects = [
@@ -17,6 +18,12 @@ const Projects = () => {
       description: "NeoTrader 3000 is a trading simulator combining strategy, market analysis, and technical innovation.",
       image: neo_trader,
       link: "https://eliasl15.github.io/NeoTrader_3000/intro.html"
+    },
+    {
+      title: "PDF Generator in Java",
+      description: "A Java-based PDF generator that converts a text file into PDF, using the iText library and a set of commands for formatting.",
+      image: pdf,
+      link: "https://github.com/EliasL15/Pdf_Generator"
     },
     {
       title: "Employee Management System",
@@ -69,7 +76,7 @@ const Projects = () => {
       </Typography>
       <Grid container spacing={4}>
         {projects.map((project, index) => (
-          <Grid item xs={12} sm={6} key={index}>
+          <Grid item xs={12} sm={6}  key={index}>
             <motion.div whileHover={{ scale: 1.05 }} transition={{ type: 'spring', stiffness: 300 }}>
               <Card sx={{ height: '100%' }}>
                 <CardMedia component="img" alt={project.title} height="200" image={project.image} />

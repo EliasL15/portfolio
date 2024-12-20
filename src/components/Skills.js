@@ -80,7 +80,7 @@ const Skills = () => {
                   {skill.name}
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  {skill.level}%
+                  {/* {skill.level}% */}
                 </Typography>
               </Box>
             </motion.div>
