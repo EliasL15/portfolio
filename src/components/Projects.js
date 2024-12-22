@@ -10,6 +10,7 @@ import bakery from '../assets/bakery.png'
 import neo_trader from '../assets/neo_trader.png'
 import employee from '../assets/employee.png'
 import pdf from '../assets/pdf.png'
+import basketball from '../assets/basket.png'
 
 const Projects = () => {
   const projects = [
@@ -66,6 +67,12 @@ const Projects = () => {
       description: "Developed a Java-based board game using OOP for a maintainable codebase, featuring a JavaFX GUI, turn-based logic, and dynamic UI updates.",
       image: bakery,
       link: "https://www.youtube.com/watch?v=lFiKO4R4vOs"
+    },
+    {
+      title: "Cyprus Basketball Division A Live Scores",
+      description: "A Flask web application that scrapes and displays live basketball scores for Cyprus Basketball games.",
+      image: basketball,
+      link: "https://github.com/EliasL15/Cyprus_Basketball_Live_Scores"
     }
   ];
 
