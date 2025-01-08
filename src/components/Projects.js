@@ -11,10 +11,23 @@ import neo_trader from '../assets/neo_trader.png'
 import employee from '../assets/employee.png'
 import pdf from '../assets/pdf.png'
 import basketball from '../assets/basket.png'
+import appointment_system from '../assets/appointment_system.png'
 
 const Projects = () => {
   const projects = [
     {
+      title: "Employee Management System",
+      description: "A full-stack web application for efficient employee management, built with HTML, CSS, JavaScript, PHP, and MySQL.",
+      image: employee,
+      link: "https://github.com/EliasL15/Employee_Management_System"
+    },
+    {
+      title: "Appointment Management System",
+      description: "A full-stack web application for managing appointments, developed with C#, ASP.NET, SQL Server.",
+      image: appointment_system,
+      link: "https://github.com/EliasL15/Appointment_System"
+    },
+    { 
       title: "Neo_Trader3000",
       description: "NeoTrader 3000 is a trading simulator combining strategy, market analysis, and technical innovation.",
       image: neo_trader,
@@ -25,12 +38,6 @@ const Projects = () => {
       description: "A Java-based PDF generator that converts a text file into PDF, using the iText library and a set of commands for formatting.",
       image: pdf,
       link: "https://github.com/EliasL15/Pdf_Generator"
-    },
-    {
-      title: "Employee Management System",
-      description: "A full-stack web application for efficient employee management, built with HTML, CSS, JavaScript, PHP, and MySQL.",
-      image: employee,
-      link: "https://github.com/EliasL15/Employee_Management_System"
     },
     {
       title: "Portfolio Website",
