@@ -69,12 +69,12 @@ const Projects = () => {
       image: shorts,
       link: "https://github.com/EliasL15/Shorts-Automation"
     },
-    {
-      title: "Java-Based Board Game",
-      description: "Developed a Java-based board game using OOP for a maintainable codebase, featuring a JavaFX GUI, turn-based logic, and dynamic UI updates.",
-      image: bakery,
-      link: "https://www.youtube.com/watch?v=lFiKO4R4vOs"
-    },
+    // {
+    //   title: "Java-Based Board Game",
+    //   description: "Developed a Java-based board game using OOP for a maintainable codebase, featuring a JavaFX GUI, turn-based logic, and dynamic UI updates.",
+    //   image: bakery,
+    //   link: "https://www.youtube.com/watch?v=lFiKO4R4vOs"
+    // },
     {
       title: "Cyprus Basketball Division A Live Scores",
       description: "A Flask web application that scrapes and displays live basketball scores for Cyprus Basketball games.",
