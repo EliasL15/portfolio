@@ -1,92 +1,116 @@
 import React from 'react';
-import { Box, Typography, Grid, CircularProgress } from '@mui/material';
+import { Box, Typography } from '@mui/material';
 import { motion } from 'framer-motion';
 import { FaJava } from "react-icons/fa";
-import { SiJavascript, SiReact, SiPython, SiCss3, SiHtml5, SiGit, SiGodotengine, SiMysql, SiC, SiCplusplus, SiLatex, SiPhp } from 'react-icons/si';
+import { SiJavascript, SiHaskell, SiPython, SiCss3, SiHtml5, SiMongodb, SiMysql, SiC, SiCplusplus, SiSolidity, SiPhp } from 'react-icons/si';
 
 const skills = [
-    { name: 'Python', level: 100, icon: <SiPython size={40} /> },
-    { name: 'Java', level: 80, icon: <FaJava size={40} /> },
-    { name: 'HTML', level: 90, icon: <SiHtml5 size={40} /> },
-    { name: 'CSS', level: 70, icon: <SiCss3 size={40} /> },
-    { name: 'JavaScript', level:70, icon: <SiJavascript size={40} />},
-    { name: 'React', level: 70, icon: <SiReact size={40} /> },
-    { name: 'PHP', level: 75, icon: <SiPhp size={40} /> },
-    { name: 'MySQL', level: 70, icon: <SiMysql size={40} /> },
-    { name: 'C', level: 60, icon: <SiC size={40} /> },
-    { name: 'C++', level: 60, icon: <SiCplusplus size={40} /> },
-    { name: 'Godot - GDScript', level: 80, icon: <SiGodotengine size={40} /> },
-    { name: 'Git', level: 80, icon: <SiGit size={40} /> }
-
-
-
-
+    { name: 'Python', icon: <SiPython size={60} /> },
+    { name: 'Java', icon: <FaJava size={60} /> },
+    { name: 'C', icon: <SiC size={60} /> },
+    { name: 'C++', icon: <SiCplusplus size={60} /> },
+    { name: 'Haskell', icon: <SiHaskell size={60} /> },
+    { name: 'Solidity', icon: <SiSolidity size={60} /> },
+    { name: 'HTML', icon: <SiHtml5 size={60} /> },
+    { name: 'CSS', icon: <SiCss3 size={60} /> },
+    { name: 'JavaScript', icon: <SiJavascript size={60} />},
+    { name: 'PHP', icon: <SiPhp size={60} /> },
+    { name: 'MySQL', icon: <SiMysql size={60} /> },
+    { name: 'MongoDB', icon: <SiMongodb size={60} /> }
 ];
 
 const Skills = () => {
   return (
-    <Box sx={{ py: 6, textAlign: 'center' }} id="skills">
-      <Typography variant="h4" color="primary" gutterBottom>
-        Skills & Expertise
+    <Box 
+      sx={{ 
+        py: 8, 
+        textAlign: 'center',
+        backgroundColor: 'background.default',
+      }} 
+      id="skills"
+    >
+      <Typography 
+        variant="h4" 
+        color="primary" 
+        gutterBottom 
+        sx={{ 
+          mb: 6,
+          fontWeight: 600
+        }}
+      >
+        Programming Languages / Technologies
       </Typography>
 
-      <Grid container spacing={4} justifyContent="center">
+      <Box 
+        sx={{
+          display: 'flex',
+          flexWrap: 'wrap',
+          gap: 4,
+          justifyContent: 'center',
+          maxWidth: 1200,
+          mx: 'auto',
+          px: 3
+        }}
+      >
         {skills.map((skill, index) => (
-          <Grid item xs={12} sm={6} md={3} key={index}>
-            <motion.div
-              whileHover={{
-                scale: 1.1,
-                rotate: index % 2 === 0 ? 5 : -5,
-                boxShadow: '0 6px 12px rgba(0,0,0,0.15)',
+          <motion.div
+            key={index}
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5, delay: index * 0.1 }}
+            whileHover={{
+              scale: 1.05,
+              transition: { duration: 0.2 }
+            }}
+          >
+            <Box
+              sx={{
+                width: { xs: '140px', sm: '160px' },
+                height: { xs: '140px', sm: '160px' },
+                padding: 3,
+                backgroundColor: 'background.paper',
+                borderRadius: 4,
+                display: 'flex',
+                flexDirection: 'column',
+                alignItems: 'center',
+                justifyContent: 'center',
+                gap: 2,
+                boxShadow: (theme) => `0 8px 24px ${theme.palette.mode === 'dark' ? 'rgba(0,0,0,0.4)' : 'rgba(0,0,0,0.1)'}`,
+                transition: 'all 0.3s ease',
+                '&:hover': {
+                  transform: 'translateY(-5px)',
+                  boxShadow: (theme) => `0 12px 28px ${theme.palette.mode === 'dark' ? 'rgba(0,0,0,0.6)' : 'rgba(0,0,0,0.2)'}`,
+                  '& .skill-icon': {
+                    color: 'primary.main',
+                  }
+                }
               }}
-              transition={{ type: 'spring', stiffness: 300 }}
             >
-              <Box
-                sx={{
-                  position: 'relative',
-                  display: 'inline-flex',
-                  flexDirection: 'column',
-                  alignItems: 'center',
-                  justifyContent: 'center',
+              <Box 
+                className="skill-icon"
+                sx={{ 
+                  color: 'text.primary',
+                  transition: 'color 0.3s ease',
+                  fontSize: 40 
                 }}
               >
-                <CircularProgress
-                  variant="determinate"
-                  value={skill.level}
-                  size={100}
-                  thickness={5}
-                  sx={{
-                    color: '#1A73E8',
-                    '& .MuiCircularProgress-circle': {
-                      strokeLinecap: 'round',
-                    },
-                  }}
-                />
-                <Box
-                  sx={{
-                    position: 'absolute',
-                    top: '50%',
-                    left: '50%',
-                    transform: 'translate(-50%, -50%)',
-                    display: 'flex',
-                    alignItems: 'center',
-                    justifyContent: 'center',
-                  }}
-                >
-                  {skill.icon}
-                </Box>
-
-                <Typography variant="h6" color="text.primary" sx={{ mt: 2 }}>
-                  {skill.name}
-                </Typography>
-                <Typography variant="body2" color="text.secondary">
-                  {/* {skill.level}% */}
-                </Typography>
+                {skill.icon}
               </Box>
-            </motion.div>
-          </Grid>
+              <Typography 
+                variant="subtitle1" 
+                sx={{ 
+                  fontWeight: 500,
+                  color: 'text.primary',
+                  fontSize: { xs: '0.9rem', sm: '1rem' }
+                }}
+              >
+                {skill.name}
+              </Typography>
+            </Box>
+          </motion.div>
         ))}
-      </Grid>
+      </Box>
     </Box>
   );
 };
