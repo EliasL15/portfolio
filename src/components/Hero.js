@@ -189,8 +189,10 @@ const Hero = ({ darkMode }) => {
             : 'linear-gradient(-45deg, #f5f5f5, #e0e0e0, #f5f5f5, #e0e0e0)',
           backgroundSize: '400% 400%',
           animation: `${gradientAnimation} 15s ease infinite`, // Apply gradient animation
-          overflow: 'hidden', // Prevent overflow
+          overflow: 'hidden', // Prevent all overflow
           padding: { xs: '2rem', sm: '4rem' }, // Responsive padding
+          width: '100%', // Ensure full width
+          boxSizing: 'border-box' // Ensure padding is included in width calculation
         }}
       >
         {/* Parallax Rotating Shape */}
