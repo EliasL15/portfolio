@@ -12,6 +12,7 @@ import employee from '../assets/employee.png'
 import pdf from '../assets/pdf.png'
 import basketball from '../assets/basket.png'
 import appointment_system from '../assets/appointment_system.png'
+import order_book from '../assets/order_book.png'
 
 const Projects = () => {
   const projects = [
@@ -27,9 +28,16 @@ const Projects = () => {
       image: appointment_system,
       link: "https://github.com/EliasL15/Appointment_System"
     },
+    {
+      title: "Order Book Simulator",
+      description: "A Flask real-time market order book simulator, featuring automatic order matching, live order book depth monitoring, and an interactive frontend for placing and managing trades.",
+      image: order_book,
+      link: "https://github.com/EliasL15/OrderBook_Simulator"
+
+    },
     { 
       title: "Neo_Trader3000",
-      description: "NeoTrader 3000 is a trading simulator combining strategy, market analysis, and technical innovation.",
+      description: "NeoTrader 3000 is a futuristic trading simulator featuring real-time stock price updates, interactive stock graphs, market events, and an achievements system, designed to test strategic trading skills in a fast-paced, dynamic environment.",
       image: neo_trader,
       link: "https://eliasl15.github.io/NeoTrader_3000/intro.html"
     },
@@ -69,12 +77,12 @@ const Projects = () => {
       image: shorts,
       link: "https://github.com/EliasL15/Shorts-Automation"
     },
-    // {
-    //   title: "Java-Based Board Game",
-    //   description: "Developed a Java-based board game using OOP for a maintainable codebase, featuring a JavaFX GUI, turn-based logic, and dynamic UI updates.",
-    //   image: bakery,
-    //   link: "https://www.youtube.com/watch?v=lFiKO4R4vOs"
-    // },
+    {
+      title: "Java-Based Board Game",
+      description: "Developed a Java-based board game using OOP for a maintainable codebase, featuring a JavaFX GUI, turn-based logic, and dynamic UI updates.",
+      image: bakery,
+      link: "https://www.youtube.com/watch?v=lFiKO4R4vOs"
+    },
     {
       title: "Cyprus Basketball Division A Live Scores",
       description: "A Flask web application that scrapes and displays live basketball scores for Cyprus Basketball games.",
