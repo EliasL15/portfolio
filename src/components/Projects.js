@@ -13,6 +13,7 @@ import pdf from '../assets/pdf.png'
 import basketball from '../assets/basket.png'
 import appointment_system from '../assets/appointment_system.png'
 import order_book from '../assets/order_book.png'
+import audio_to_video from '../assets/audio_to_video.jpg'
 
 const Projects = () => {
   const projects = [
@@ -42,18 +43,6 @@ const Projects = () => {
       link: "https://eliasl15.github.io/NeoTrader_3000/intro.html"
     },
     {
-      title: "PDF Generator in Java",
-      description: "A Java-based PDF generator that converts a text file into PDF, using the iText library and a set of commands for formatting.",
-      image: pdf,
-      link: "https://github.com/EliasL15/Pdf_Generator"
-    },
-    {
-      title: "Portfolio Website",
-      description: "A personal portfolio website built using the React framework to showcase my skills and projects.",
-      image: portfolio_pic,
-      link: "https://github.com/EliasL15/portfolio"
-    },
-    {
       title: "Ouf of Space Multiplayer Game",
       description: "Team Project multiplayer Game built using Godot Engine for the front-end and Go for the back-end",
       image: outofspace,
@@ -66,28 +55,40 @@ const Projects = () => {
       link: "https://github.com/EliasL15/Brick-Breaker-Game"
     },
     {
+      title: "Shorts Automation in Python",
+      description: "​A Python-based tool that automates the creation of YouTube Shorts by splitting videos into clips, generating subtitles using Whisper, and merging them, enhancing content accessibility and engagement.",
+      image: shorts,
+      link: "https://github.com/EliasL15/Shorts-Automation"
+    },
+    {
+      title: "Audio to Video Generator",
+      description: "A Python-based tool that converts audio files into videos, enhancing content creation and accessibility, using LLM to generate keywords used to download relevant videos from pexels and create a video.",
+      image: audio_to_video,
+      link: "https://github.com/EliasL15/audio_to_video"
+    },
+    {
       title: "Thermopylae Ultra Marathon Cyprus",
       description: "Co-founded a charity event, developed the official website using HTML and CSS. Also integrated Stripe for donations, and provided live streaming support.",
       image: ultra,
       link: "https://github.com/EliasL15/Ultra-Marathon"
     },
     {
-      title: "Shorts Automation in Python",
-      description: "Automating the process of generating Shorts/Reels using Python and APIs, streamlining content creation for a more efficient workflow.",
-      image: shorts,
-      link: "https://github.com/EliasL15/Shorts-Automation"
-    },
-    {
-      title: "Java-Based Board Game",
-      description: "Developed a Java-based board game using OOP for a maintainable codebase, featuring a JavaFX GUI, turn-based logic, and dynamic UI updates.",
-      image: bakery,
-      link: "https://www.youtube.com/watch?v=lFiKO4R4vOs"
-    },
-    {
       title: "Cyprus Basketball Division A Live Scores",
       description: "A Flask web application that scrapes and displays live basketball scores for Cyprus Basketball games.",
       image: basketball,
       link: "https://github.com/EliasL15/Cyprus_Basketball_Live_Scores"
+    },
+    {
+      title: "PDF Generator in Java",
+      description: "A Java-based PDF generator that converts a text file into PDF, using the iText library and a set of commands for formatting.",
+      image: pdf,
+      link: "https://github.com/EliasL15/Pdf_Generator"
+    },
+    {
+      title: "Portfolio Website",
+      description: "A personal portfolio website built using the React framework to showcase my skills and projects.",
+      image: portfolio_pic,
+      link: "https://github.com/EliasL15/portfolio"
     }
   ];
 
