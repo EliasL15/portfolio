@@ -6,14 +6,13 @@ import outofspace from "../assets/outofspace.gif";
 import brick_breaker from "../assets/brick_breaker.png"
 import ultra from '../assets/ultra.png'
 import shorts from '../assets/shorts.png'
-import bakery from '../assets/bakery.png'
 import neo_trader from '../assets/neo_trader.png'
 import employee from '../assets/employee.png'
 import pdf from '../assets/pdf.png'
 import basketball from '../assets/basket.png'
 import appointment_system from '../assets/appointment_system.png'
 import order_book from '../assets/order_book.png'
-import audio_to_video from '../assets/audio_to_video.jpg'
+import audio_to_video from '../assets/audio_to_video.png'
 
 const Projects = () => {
   const projects = [
