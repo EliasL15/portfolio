@@ -33,7 +33,7 @@
         "predeploy": "npm run build",
         "deploy": "gh-pages -d build"
     },
-    "homepage": "https://EliasL15.github.io/portfolio",
+    "homepage": "https://liassides.me",
     "browserslist": {
         "production": [
             ">0.2%",
