@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.1f771ae6.css",
-    "main.js": "/portfolio/static/js/main.4b0c9560.js",
-    "static/media/ultra.png": "/portfolio/static/media/ultra.ab65fd56f31e0eb0b26f.png",
-    "static/media/pdf.png": "/portfolio/static/media/pdf.52ddcd2a4b62b5567b07.png",
-    "static/media/prof.png": "/portfolio/static/media/prof.43c73b1a7e4b05db3463.png",
-    "static/media/mod.png": "/portfolio/static/media/mod.5180a7e1f731c66d4537.png",
-    "static/media/neo_trader.png": "/portfolio/static/media/neo_trader.18faf1b22b4a19e3a213.png",
-    "static/media/dev_portfolio.png": "/portfolio/static/media/dev_portfolio.b5a894ea297c2c404e75.png",
-    "static/media/shorts.png": "/portfolio/static/media/shorts.6c3c01f05e1e1a2c59f0.png",
-    "static/media/audio_to_video.png": "/portfolio/static/media/audio_to_video.5060a9b1cc46d781c3de.png",
-    "static/media/appointment_system.png": "/portfolio/static/media/appointment_system.8e7675e8bab38b8740b4.png",
-    "static/media/employee.png": "/portfolio/static/media/employee.6d98e7944de645b75e0b.png",
-    "static/media/brick_breaker.png": "/portfolio/static/media/brick_breaker.92ebed232b6f65f1e681.png",
-    "static/media/basket.png": "/portfolio/static/media/basket.7c5f0410a570cde5092f.png",
-    "static/media/order_book.png": "/portfolio/static/media/order_book.b2a143a82aa3060595fc.png",
-    "static/media/ey.png": "/portfolio/static/media/ey.44a5f52b6c6560a36736.png",
-    "static/media/outofspace.gif": "/portfolio/static/media/outofspace.c14333e080ad5d3ec2e5.gif",
-    "static/media/logicom.jpg": "/portfolio/static/media/logicom.ab774242bb2a1b89ccf2.jpg",
-    "index.html": "/portfolio/index.html",
-    "static/media/your-illustration.svg": "/portfolio/static/media/your-illustration.6aa2ea11cb830eefe17d48fca00a97a2.svg",
-    "main.1f771ae6.css.map": "/portfolio/static/css/main.1f771ae6.css.map",
-    "main.4b0c9560.js.map": "/portfolio/static/js/main.4b0c9560.js.map"
+    "main.css": "/static/css/main.1f771ae6.css",
+    "main.js": "/static/js/main.afaab564.js",
+    "static/media/ultra.png": "/static/media/ultra.ab65fd56f31e0eb0b26f.png",
+    "static/media/pdf.png": "/static/media/pdf.52ddcd2a4b62b5567b07.png",
+    "static/media/prof.png": "/static/media/prof.43c73b1a7e4b05db3463.png",
+    "static/media/mod.png": "/static/media/mod.5180a7e1f731c66d4537.png",
+    "static/media/neo_trader.png": "/static/media/neo_trader.18faf1b22b4a19e3a213.png",
+    "static/media/dev_portfolio.png": "/static/media/dev_portfolio.b5a894ea297c2c404e75.png",
+    "static/media/shorts.png": "/static/media/shorts.6c3c01f05e1e1a2c59f0.png",
+    "static/media/audio_to_video.png": "/static/media/audio_to_video.5060a9b1cc46d781c3de.png",
+    "static/media/appointment_system.png": "/static/media/appointment_system.8e7675e8bab38b8740b4.png",
+    "static/media/employee.png": "/static/media/employee.6d98e7944de645b75e0b.png",
+    "static/media/brick_breaker.png": "/static/media/brick_breaker.92ebed232b6f65f1e681.png",
+    "static/media/basket.png": "/static/media/basket.7c5f0410a570cde5092f.png",
+    "static/media/order_book.png": "/static/media/order_book.b2a143a82aa3060595fc.png",
+    "static/media/ey.png": "/static/media/ey.44a5f52b6c6560a36736.png",
+    "static/media/outofspace.gif": "/static/media/outofspace.c14333e080ad5d3ec2e5.gif",
+    "static/media/logicom.jpg": "/static/media/logicom.ab774242bb2a1b89ccf2.jpg",
+    "index.html": "/index.html",
+    "static/media/your-illustration.svg": "/static/media/your-illustration.6aa2ea11cb830eefe17d48fca00a97a2.svg",
+    "main.1f771ae6.css.map": "/static/css/main.1f771ae6.css.map",
+    "main.afaab564.js.map": "/static/js/main.afaab564.js.map"
   },
   "entrypoints": [
     "static/css/main.1f771ae6.css",
-    "static/js/main.4b0c9560.js"
+    "static/js/main.afaab564.js"
   ]
 }
